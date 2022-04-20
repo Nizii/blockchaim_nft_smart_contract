@@ -13,7 +13,7 @@ setTimeout(function() {
             $('.fade-in-text-1').fadeIn("3000");
             setTimeout(function() { 
                 $('.fade-in-text-1').fadeOut("3000");
-                window.location.href = "../STUMTEC/content.html"; 
+                window.location.href = "./content.html"; 
             }, 3000);
         }, 2000);
     }); 
