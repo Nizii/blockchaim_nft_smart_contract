@@ -12,6 +12,8 @@
   <script src="body-fade-in.js"></script>
   <script src="section-4-buy.js"></script>
   <script src="setVisible.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+  <script src="contract.js"></script>
   <link rel="stylesheet" href="main-page-style.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
@@ -214,7 +216,7 @@
     <li>to</li>
     <li>buy?</li>
     </ul> 
-    <div id="buy-anyway"><h2>Buy</h2></div>
+    <div id="buy-anyway" onclick="MintNFT()"><h2>Buy</h2></div>
 </div>
 </div>
 </body>

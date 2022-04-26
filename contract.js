@@ -40,7 +40,6 @@ async function MintNFT(name) {
 
   contract.methods.MintNFT(accounts[0],JSON.stringify(jsonobj)).send({from:accounts[0]}).then(function()
   {
-
     //bug: then function never gets called (promise never resolves after metamask confirmation for some reason)
     console.log("mint transaction success, moving on");
     window.location.href = "./danke.html";
