@@ -56,7 +56,6 @@ h2 {
  .txt-2, .txt-3, .txt-4, .txt-5, .txt-6, .txt-7, h1 {
     margin-left: 20%;
     margin-right: 20%;
-    text-align: justify;
 }
 
 /* 
@@ -99,9 +98,8 @@ Section 1 ######################################################################
 
 #about-text {
   display: none;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 /* 
@@ -150,9 +148,8 @@ Section 2 ######################################################################
 .section-2-txt-1 {
   color: #0000FF;
     display: none;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #umwelt-img-main-container {
@@ -211,7 +208,6 @@ Section 3 ######################################################################
 .section-3-txt-container {
     padding-left: 20%;
     padding-right: 20%;
-    text-align: justify;
 }
 
 #kapitalismus-tierwelt-container-1, #kapitalismus-tierwelt-Percent-container, #kapitalismus-tierwelt-container-2 {
@@ -245,9 +241,8 @@ Section 3 ######################################################################
 .section-3-txt-1 {
   color: #EB40FF;
   display: none;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 /* 
@@ -333,7 +328,6 @@ label {
 #buy-txt-container {
     padding-left: 20%;
     padding-right: 20%;
-    text-align: justify;
 }
 
 .buy-txt {
