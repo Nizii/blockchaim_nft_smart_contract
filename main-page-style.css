@@ -152,6 +152,37 @@ Section 2 ######################################################################
     margin-right: 20%;
 }
 
+/*Neu Geaddet */
+#über_uns-img-main-container {
+  padding-bottom: 50px;
+}
+
+.über_uns-img-container {
+  position: relative;
+  width: 66%;
+  display: inline-block;
+  text-align: center;
+}
+.über_uns2-img-container {
+  position: relative;
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.über_uns-img {
+  border: #0000FF;
+  width:100%;
+  border-width: 5px;
+  border-style: groove;
+}
+
+.über_uns-img-text {
+  color: #0000FF;
+  font-size: 20px;
+  padding: 20px;
+  text-transform: none;
+}
+
 #umwelt-img-main-container {
   padding-bottom: 50px;
 }
