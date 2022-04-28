@@ -6,26 +6,26 @@ $(document).ready(function(){
         $("#form").css("display", "none");
         $('.buy-txt').removeClass('hidden');
         $("#buy-anyway").fadeIn(4000);
-        $(".logo-1").fadeIn("slow");
+        $(".buy-anyway-title").fadeIn("slow");
     });
   });
   
   $(document).ready(function(){
       $("#buy").hover(function(){
-          $(this).css("background-color", "white");
-          $(this).css("color", "black");
+        $(this).css("background-color", "#0000FF");
+          $(this).css("color", "white");
       }, function(){
-          $(this).css("background-color", "grey");
+          $(this).css("background-color", "#d24dff");
           $(this).css("color", "white");
       });
   });
 
   $(document).ready(function(){
     $("#buy-anyway").hover(function(){
-        $(this).css("background-color", "white");
-        $(this).css("color", "black");
-    }, function(){
-        $(this).css("background-color", "black");
-        $(this).css("color", "white");
+        $(this).css("background-color", "#0000FF");
+          $(this).css("color", "white");
+      }, function(){
+          $(this).css("background-color", "#d24dff");
+          $(this).css("color", "white");
     });
 });
