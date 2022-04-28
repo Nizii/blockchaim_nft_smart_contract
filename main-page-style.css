@@ -127,6 +127,7 @@ Section 2 ######################################################################
   width: 33%;
   height: 100px;
   display: inline-block;
+  text-align: center;
 }
 
 #kapitalismus-txt-1, #kapitalismus-txt-2 {
@@ -257,6 +258,7 @@ Section 3 ######################################################################
   width: 33%;
   height: 100px;
   display: inline-block;
+  text-align: center;
 }
 
 #kapitalismus-tierwelt-txt-1, #kapitalismus-tierwelt-txt-2{
@@ -321,16 +323,13 @@ Section 4 BUY ##################################################################
   display: none;
 }
 
-#form, .flip-card {
-  display: inline-block;
-  padding: 5px;
-}
-
 #form {
   border: none;
   height: 250px;
   width: 300px;
   border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
 }
 
 label, input {
