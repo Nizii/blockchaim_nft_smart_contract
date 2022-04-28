@@ -13,6 +13,9 @@ body {
     position: relative; 
 }
 
+h1{
+    font-size: 4rem;
+}
 h2 {
     padding: 10%;
     text-align: center;
@@ -43,6 +46,7 @@ h2 {
 }
 
 .txt-1, .txt-2, .txt-3, .navbar {
+    font-size: 1.5rem;
     display: none;
 }
 
@@ -54,8 +58,8 @@ h2 {
 
 
  .txt-2, .txt-3, .txt-4, .txt-5, .txt-6, .txt-7, h1 {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: justify;
 }
 
@@ -99,8 +103,8 @@ Section 1 ######################################################################
 
 #about-text {
   display: none;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 14%;
+  margin-right: 14%;
   text-align: justify;
 }
 
@@ -150,41 +154,12 @@ Section 2 ######################################################################
 .section-2-txt-1 {
   color: #0000FF;
     display: none;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 14%;
+    margin-right: 14%;
     text-align: justify;
 }
 
-/*Neu Geaddet */
-#über_uns-img-main-container {
-  padding-bottom: 50px;
-}
 
-.über_uns-img-container {
-  position: relative;
-  width: 66%;
-  display: inline-block;
-  text-align: center;
-}
-.über_uns2-img-container {
-  position: relative;
-  width: 33%;
-  display: inline-block;
-  text-align: center;
-}
-.über_uns-img {
-  border: #0000FF;
-  width:100%;
-  border-width: 5px;
-  border-style: groove;
-}
-
-.über_uns-img-text {
-  color: #0000FF;
-  font-size: 20px;
-  padding: 20px;
-  text-transform: none;
-}
 
 #umwelt-img-main-container {
   padding-bottom: 50px;
@@ -276,8 +251,8 @@ Section 3 ######################################################################
 .section-3-txt-1 {
   color: #EB40FF;
   display: none;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 14%;
+  margin-right: 14%;
   text-align: justify;
 }
 
@@ -437,6 +412,61 @@ label {
 .buy-txt.hidden li:nth-child(36) { transform: translateX(30px) translateY(200px); }
 .buy-txt.hidden li:nth-child(37) { transform: translateX(-300px) translateY(200px); }
 .buy-txt.hidden li:nth-child(38) { transform: translateX(20px) translateY(-20px); }
+
+/* 
+Section 5 #######################################################################
+*/
+
+#section5 {
+  background-color: white;
+  color: #0000FF;
+  padding-bottom: 100px;
+}
+
+#section-5-container {
+  padding-bottom: 130px;
+  padding-top: 450px;
+}
+
+/*Neu Geaddet */
+#über_uns-img-main-container {
+  padding-bottom: 50px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.über_uns-txt-container {
+  position: relative;
+  width: 66%;
+  display: inline-block;
+  text-align: left;
+}
+
+#section-5-txt {
+  font-size: 4rem;
+  display: none;
+}
+.über_uns2-img-container {
+  position: relative;
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.über_uns-img {
+  border: #0000FF;
+  width:100%;
+  border-width: 5px;
+  border-style: groove;
+}
+
+.über_uns-img-text {
+  color: #0000FF;
+  font-size: 20px;
+  padding: 20px;
+  text-transform: none;
+}
+
+
 
 /*
   Animation Did you know #############################################################################################
