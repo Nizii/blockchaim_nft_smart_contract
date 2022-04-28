@@ -46,8 +46,12 @@ h2 {
     display: none;
 }
 
+.txt-1 {
+  text-align: left;
+}
+
 .navbar {
-  background-color: #FF00FF;
+  background-color: #d24dff;
   color: white;
   font-weight: 700;
 }
@@ -115,6 +119,8 @@ Section 2 ######################################################################
 #section-2-container {
   padding-bottom: 130px;
   padding-top: 450px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #kapitalismus-container-1, #kapitalismus-Percent-container, #kapitalismus-container-2 {
@@ -155,6 +161,8 @@ Section 2 ######################################################################
 /*Neu Geaddet */
 #über_uns-img-main-container {
   padding-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .über_uns-img-container {
@@ -185,13 +193,17 @@ Section 2 ######################################################################
 
 #umwelt-img-main-container {
   padding-bottom: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
 }
 
 .umwelt-img-container {
   position: relative;
-  width: 33%;
+  /*width: 33%;*/
   display: inline-block;
   text-align: center;
+  margin: 20px;
 }
 
 .umwelt-img {
