@@ -219,16 +219,30 @@ Section 2 ######################################################################
   text-transform: none;
 }
 
+
 #umwelt-banner {
   background-color: #FF00FF;
   height: 80px;
   width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+@keyframes example {
+  from {left: 0px;}
+  to {left: 84%;}
 }
 
 #umwelt-banner-text {
   color: white;
   font-size: 25px;
   padding-top: 20px;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 
 
