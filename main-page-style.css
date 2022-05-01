@@ -170,13 +170,16 @@ Section 2 ######################################################################
   width: 66%;
   display: inline-block;
   text-align: center;
+  margin-top: 50px;
 }
+
 .über_uns2-img-container {
   position: relative;
   width: 33%;
   display: inline-block;
   text-align: center;
 }
+
 .über_uns-img {
   border: #0000FF;
   width:100%;
@@ -191,6 +194,28 @@ Section 2 ######################################################################
   text-transform: none;
 }
 
+.über-uns-txt-container-1 {
+  margin: 20px;
+}
+
+.name-txt {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color:#FF00FF;
+  text-align: left; 
+  width: 40%;
+}
+
+.description-txt {
+  text-align: left; 
+  width: auto;
+  color: #0000FF;
+}
+
 #umwelt-img-main-container {
   padding-bottom: 50px;
   margin-left: 15%;
@@ -200,7 +225,6 @@ Section 2 ######################################################################
 
 .umwelt-img-container {
   position: relative;
-  /*width: 33%;*/
   display: inline-block;
   text-align: center;
   margin: 20px;
