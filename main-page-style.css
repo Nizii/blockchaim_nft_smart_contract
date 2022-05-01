@@ -324,7 +324,7 @@ Section 4 BUY ##################################################################
   padding-right: 20%;
 }
 
-#buy-anyway {
+#buy-anyway-btn {
   margin-top: 50px;
   height: 100px;
   width: 100%;  
@@ -357,16 +357,25 @@ label {
 }
 
 
-#buy {
+#buy-btn {
     height: 100px;
     width: 300px;
     border-radius: 10px;
     font-size: 1vw;
-    padding: 5px;
     text-align: center;
     border: none;
     color: white;
     background-color:#d24dff;
+}
+
+.btn-txt {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112px;
+  text-align: center;
+  color: white;
+  font-size: 3vw;
 }
 
 #buy-txt {
