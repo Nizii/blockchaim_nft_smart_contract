@@ -43,6 +43,7 @@ h2 {
 
 .txt-1, .txt-2, .txt-3, .navbar {
     display: none;
+    font-size: 1.4em;
 }
 
 .txt-1 {
@@ -252,12 +253,14 @@ text-align: center;
 .umwelt-img-container {
   position: relative;
   display: inline-block;
+  width: 29%;
   text-align: center;
   margin: 20px;
 }
 
 .umwelt-img {
   border: #0000FF;
+  width: 80%;
   border-width: 5px;
   border-style: groove;
 }
@@ -495,8 +498,6 @@ Section 5 ######################################################################
 #section-5-container {
   padding-bottom: 130px;
   padding-top: 450px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 
