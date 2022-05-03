@@ -122,6 +122,14 @@ Section 2 ######################################################################
   margin-right: 10%;
 }
 
+#umwelt-container-1{
+position: relative;
+width: 100%;
+height: 300px;
+display: inline-block;
+text-align: center;
+}
+
 #kapitalismus-container-1, #kapitalismus-Percent-container, #kapitalismus-container-2 {
   position: relative;
   width: 33%;
@@ -156,6 +164,24 @@ Section 2 ######################################################################
     display: none;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#section-2-txt-big {
+  color: #0000FF;
+  font-size: 100px;
+    display: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#plane-img-container{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.plane-img{
+  height: 100px;
+  width: auto;
 }
 
 /*Neu Geaddet */
@@ -255,6 +281,14 @@ Section 2 ######################################################################
 @keyframes example {
   from {left: 0px;}
   to {left: 84%;}
+}
+#plane-animation{
+  position: absolute;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 
 #umwelt-banner-text {
@@ -448,6 +482,24 @@ label {
     opacity: 1;
     transition: all 2.5s ease;
 }
+/* 
+Section 5 #######################################################################
+*/
+
+#section5 {
+  background-color: white;
+  color: #0000FF;
+  padding-bottom: 100px;
+}
+
+#section-5-container {
+  padding-bottom: 130px;
+  padding-top: 450px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
 
 .buy-txt li:last-child {
     margin-right: 0;
