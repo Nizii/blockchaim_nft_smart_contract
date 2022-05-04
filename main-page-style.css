@@ -288,7 +288,6 @@ text-align: center;
   animation-name: example2;
   animation-duration: 8s;
   animation-timing-function: linear;
-  animation-delay: 2s;
   animation-iteration-count: infinite;
   transform: translateX(100%);
   text-align: left;
