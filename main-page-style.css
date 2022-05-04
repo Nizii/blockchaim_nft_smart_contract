@@ -17,15 +17,17 @@ h2 {
     text-align: center;
 }
 
-.title-container {
+.title-container{
   width: 100%;
   position: relative;
+  height: 300px;
 }
 
 .title-img {
   width: 100%;
   height: 300px;
   position: absolute;
+
 }
 
 .title-text {
@@ -68,13 +70,14 @@ Section 1 ######################################################################
 #section1 {
   background-color: white;
   color: #0000FF;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
 }
 
 #title-victim {
   width: 100%;
-  height: 300px;
+  height:500px;
   position: absolute;
+  margin-bottom: 100px;
 }
 
 .title-victim-text {
@@ -87,17 +90,27 @@ Section 1 ######################################################################
   color: #FFFFFF;
   font-size:7vw;
   width: 100%;
-  padding-top: 90px;
+  padding-top: 200px;
 }
 
 #section-1-container {
-  padding-top: 300px;
-  padding-bottom: 50px;
+/*   padding-top: 300px;
+  padding-bottom: 50px; */
+}
+
+.text-section
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #about {
+  margin-top: 200px;
+}
+
+h1 {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 #climate {
@@ -105,10 +118,11 @@ Section 1 ######################################################################
   padding-top: 50px;
 }
 
-#about-text {
+.about-text {
   display: none;
   margin-left: 20%;
   margin-right: 20%;
+  padding-bottom: 100px;
 }
 
 /* 
@@ -118,12 +132,12 @@ Section 2 ######################################################################
 #section2 {
   background-color: white;
   color: #0000FF;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 #section-2-container {
-  padding-bottom: 130px;
-  padding-top: 450px;
+/*   padding-bottom: 130px;
+  padding-top: 450px; */
   overflow: hidden;
 
 }
@@ -233,7 +247,7 @@ text-align: center;
   letter-spacing: 0.1em;
   color:#FF00FF;
   text-align: left; 
-  width: 40%;
+  width: 80%;
 }
 
 .description-txt {
@@ -364,7 +378,7 @@ Section 3 ######################################################################
 #section3 {
   background-color: white;
   color: #EB40FF;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .section-3-txt-1, .section-3-txt-2 {
@@ -545,8 +559,8 @@ Section 5 ######################################################################
 }
 
 #section-5-container {
-  padding-bottom: 130px;
-  padding-top: 450px;
+/*   padding-bottom: 130px;
+  padding-top: 450px; */
 }
 
 
